@@ -1,0 +1,93 @@
+@media screen and (min-width: 991px) {
+   
+/* Page d'accueil */
+
+.fonction__titre {
+    @include flexbox-center
+}
+
+.fonction__blocs {
+   display: flex;
+   justify-content: space-around;
+}
+
+.restos__titre {
+    margin-left: 160px;
+}
+
+.resto__cartes {
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  
+
+
+  .footer {
+    &__bloc {
+        margin-bottom: 10px;     
+        &-liens {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            font-size: 18px;
+            max-width: 1300px;   
+            padding: 20px;           
+            }
+        }
+   }
+
+#droite1 {
+   margin-left: 10px;
+} 
+
+#droite2 {
+   margin-right: 90px;
+}
+
+
+
+/* Pages Restos */
+
+.image__img {
+    height: 100%;
+    margin-top: 0;
+}
+
+.menu {
+    margin-top: -15px;
+}
+.menu__grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+}
+
+#bouton {
+    width: 300%;
+}
+
+.footer {
+    &__bloc {
+        margin-bottom: 10px;     
+        &-liens {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            font-size: 18px;
+            max-width: 1300px;   
+            padding: 20px;           
+            }
+        }
+   }
+
+#droite1 {
+    margin-left: 10px;
+ } 
+ 
+ #droite2 {
+    margin-right: 90px;
+ }
+}
+
+
