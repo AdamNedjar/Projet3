@@ -185,6 +185,7 @@ body {
         }
         &__price {
             padding-right: 20px;
+            margin-top: 25px;
             font-weight: bold;
             padding-left: 7px;
         }
@@ -238,48 +239,48 @@ transform: rotate(360deg);
       opacity: 0;
 }
 100% {
-      opacity: 1;
+      opacity: 2;
 }
 }
 
 .appears-with-opacity {
-animation: opacity 1s both;
+animation: opacity 2s both;
 }
 
 #case-1 {
-animation-delay: 0.1;
+animation-delay: 0.3;
 }
 
 #case-2 {
-animation-delay: 0.2s;
-}
-
-#case-3 {
-animation-delay: 0.3s;
-}
-
-#case-4 {
-animation-delay: 0.4s;
-}
-
-#case-5 {
-animation-delay: 0.5s;
-}
-
-#case-6 {
 animation-delay: 0.6s;
 }
 
-#case-7 {
-animation-delay: 0.7s;
-}
-
-#case-8 {
+#case-3 {
 animation-delay: 0.8s;
 }
 
+#case-4 {
+animation-delay: 1s;
+}
+
+#case-5 {
+animation-delay: 1.2s;
+}
+
+#case-6 {
+animation-delay: 1.4s;
+}
+
+#case-7 {
+animation-delay: 1.6s;
+}
+
+#case-8 {
+animation-delay: 1.8s;
+}
+
 #case-9 {
-animation-delay: 0.9s;
+animation-delay: 2s;
 }
 
 
